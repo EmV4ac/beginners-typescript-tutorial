@@ -6,7 +6,7 @@ import { Equal, Expect } from "./helpers/type-utils";
  * make it more DRY?
  */
 
-interface User {
+interface User  {
   id: string;
   firstName: string;
   lastName: string;
